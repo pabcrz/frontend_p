@@ -1,5 +1,5 @@
 # Frontend 
-###Phase 1
+### Phase 1
 
 > [!NOTE]
 > This proyect is for learning.
