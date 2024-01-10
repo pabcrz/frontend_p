@@ -3,8 +3,8 @@
     --black: #000000;
     --dark: #232830;
     --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --text-input-field: #ebf8ff;
+    --hospital-green: #004aad;
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -75,18 +75,52 @@ body{
 .primary-button{
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
-    background-color: var(--hospital-green);
     border-radius: 8px;
     border: none;
     color: var(--white);
     cursor: pointer;
     font-size: var(--md);
-    height: 32px;
+    height: 40px;
+    width: 100%;
+    background: rgb(7,159,255);
+    background: linear-gradient(90deg, rgba(7,159,255,1) 0%, rgba(0,74,173,1) 100%);
 }
 
 .login-button{
     margin-top: 14px;
     margin-bottom: 30px;
+}
+
+.email-sent{
+    justify-items: center;
+}
+
+.email-image{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: var(--text-input-field);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.email-image img{
+    width: 80px;   
+}
+
+.resend{
+    font-size: var(--sm);
+}
+
+.resend span{
+    color: var(--very-light-pink);
+}
+
+.resend a{
+    color: var(--hospital-green);
+    text-decoration: none;
 }
 
 @media (max-width: 640px) {
