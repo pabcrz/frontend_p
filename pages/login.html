@@ -16,19 +16,16 @@
   <div class="login">
     <div class="form-container">
       <img src="/logos/logo_yard_sale.svg" alt="logo" class="logo" />
-
-      <h1 class="title">Create a new password</h1>
-      <p class="subtitle">Enter a new password for your account</p>
-      <form action="/" class="form">
-        <label for="passwd" class="label">Password</label>
+      <form action="#" class="form">
+        <label for="email" class="label">Email address</label>
         <input
-          type="password"
-          id="passwd"
-          placeholder="********"
-          class="input input-password"
+          type="email"
+          id="email"
+          placeholder="example@email.com"
+          class="input input-email"
         />
 
-        <label for="new-passwd" class="label">Password</label>
+        <label for="password" class="label">Password</label>
         <input
           type="password"
           id="new-passwd"
@@ -38,10 +35,12 @@
 
         <input
           type="submit"
-          vlaue="Confirm"
+          value="Login"
           class="primary-button login-button"
         />
+        <a href="#">Forgot my password</a>
       </form>
+      <button class="secondary-button signup-button">Sign up</button>
     </div>
   </div>
 </body>
